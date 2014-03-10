@@ -1,6 +1,10 @@
 plexWatch/Web - v1.5.4.2
 ========================
-(with Login)
+
+****
+With Login script (http://angry-frog.com/downloads-page/)
+Allows user to create a login to restricts acccess to anything but the main page
+****
 
 A web front-end for plexWatch.
 
