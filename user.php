@@ -487,7 +487,7 @@
 									if ($recentXml['type'] == "episode") {
 										if (!empty($plexWatch['myPlexAuthToken'])) {
 											$myPlexAuthToken = $plexWatch['myPlexAuthToken'];
-											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."?query=c&X-Plex-Token=".$myPlexAuthToken."";
+											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."?X-Plex-Token=".$myPlexAuthToken."";
 										}else{
 											$myPlexAuthToken = '';
 											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."";
@@ -517,7 +517,7 @@
 									}else if ($recentXml['type'] == "movie") {	
 										if (!empty($plexWatch['myPlexAuthToken'])) {
 											$myPlexAuthToken = $plexWatch['myPlexAuthToken'];
-											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."?query=c&X-Plex-Token=".$myPlexAuthToken."";
+											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."?X-Plex-Token=".$myPlexAuthToken."";
 										}else{
 											$myPlexAuthToken = '';
 											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."";
@@ -548,7 +548,7 @@
 									}else if ($recentXml['type'] == "clip") {	
 										if (!empty($plexWatch['myPlexAuthToken'])) {
 											$myPlexAuthToken = $plexWatch['myPlexAuthToken'];
-											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."?query=c&X-Plex-Token=".$myPlexAuthToken."";
+											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."?X-Plex-Token=".$myPlexAuthToken."";
 										}else{
 											$myPlexAuthToken = '';
 											$recentMetadata = "".$plexWatchPmsUrl."/library/metadata/".$recentXml['ratingKey']."";
