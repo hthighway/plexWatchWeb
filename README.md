@@ -8,7 +8,7 @@ Allows user to create a login to restricts acccess to anything but the main page
 Follow instructions on angry-frog.com to install
 * place in a "/login" folder
 * this fork already has hooks installed to use the login script
-* Only issue this script has is on a clean install of plexWatchWeb.  the added lines of code need to be commented out in the setting.php file the 1st time it is ran to enable setting up of plexWatchWeb.  This in not needed on an existing plexWatchWeb installation
+* Only issue with this script is on a clean install of plexWatchWeb.  The added lines of code need to be commented out in the setting.php file the 1st time it is ran to enable setting up of plexWatchWeb.  This in not needed on an existing plexWatchWeb installation
 
 ****
 
