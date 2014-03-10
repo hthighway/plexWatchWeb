@@ -1,4 +1,4 @@
-<?php include("../login/include/session.php"); ?>
+<?php include("../login/include/session.php");  // comment out on 1st install to allow configuration of plexWatchWeb ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -33,7 +33,7 @@
   </head>
 
   <body>
-<?php if($session->logged_in){ ?> 
+<?php if($session->logged_in){  // comment out on 1st install to allow configuration of plexWatchWeb  ?> 
   
   
 	<div class="container">
@@ -797,6 +797,6 @@
 	}, 5000);
 	</script>
 	
-<?php } ?>	
+<?php }  // comment out on 1st install to allow configuration of plexWatchWeb  ?>	
   </body>
 </html>
