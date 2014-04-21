@@ -194,7 +194,7 @@
 							echo "No Results.";
 
 							} else {
-							
+							 if($session->logged_in){
 							echo "<table id='globalHistory' class='display'>";
 								echo "<thead>";
 									echo "<tr>";
@@ -407,6 +407,7 @@
 										echo "<td align='center'><span class='badge badge-warning'>".$percentComplete."%</span></td>";
 									echo "</tr>";   
 								}
+							}
 							}
 								echo "</tbody>";
 							echo "</table>";
